@@ -24,14 +24,14 @@ El Asistente Virtual es una aplicación web construida en Python con Streamlit y
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-   cd nombre_del_repositorio
+   [git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+   cd nombre_del_repositorio](https://github.com/StevenCanoAristizabal/asistente_virtual_guia_operativa.git)
 
 ##Instala las dependencias:
 
 
 ## Asegúrate de tener pip instalado y ejecuta:
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 ## Configura tus credenciales de OpenAI:
 Crea un archivo llamado secrets.toml y agrega tu clave de API:
@@ -39,7 +39,7 @@ Crea un archivo llamado secrets.toml y agrega tu clave de API:
 openai_api_key = "tu_clave_de_api"
 
 ## Ejecuta la aplicación:
-streamlit run app.py
+      streamlit run app.py
 
 
 ## Uso
